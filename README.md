@@ -16,3 +16,6 @@ cargo add arboard serde serde_json chrono
 
 ### Contribution:
 You are free to add anything.
+
+### Example:
+![screenshot:](image.png)
