@@ -1,14 +1,16 @@
 [package]
 name = "clipboard"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-arboard = "3.6.1"
+arboard = { version = "3.6.1", default-features = false }
 chrono = "0.4.42"
-clap = "4.5.47"
+clap = { version = "4.5.47", features = ["derive"] }
+daemonize = "0.5.0"
 dirs = "6.0.0"
+ksni = "0.2"
 serde = { version = "1.0.225", features = ["derive"] }
 serde_json = "1.0.145"
