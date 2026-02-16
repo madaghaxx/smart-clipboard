@@ -14,3 +14,10 @@ dirs = "6.0.0"
 ksni = "0.2"
 serde = { version = "1.0.225", features = ["derive"] }
 serde_json = "1.0.145"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
