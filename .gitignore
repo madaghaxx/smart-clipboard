@@ -1,1 +1,4 @@
 /target
+.opencode
+Cargo.lock
+clipboard
